@@ -47,6 +47,12 @@ console.log(rank);
 rank.unshift("4");
 console.log(rank);
 
+rank.shift();
+console.log(rank);
+
+rank.join("");
+console.log(rank);
+
 
 //3rd program on "Conditionals"
 var age = window.prompt("Enter your age: ");
